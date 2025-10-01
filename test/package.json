@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest test.js",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:performance": "jest parseTime.performance.test.js"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}

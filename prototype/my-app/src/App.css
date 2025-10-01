@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+.home-container {
+  padding: 20px;
+}
+
+.metric-cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 23%; /* Adjust as needed */
+  text-align: left;
+}
+
+.metric-card h3 {
+  margin-top: 0;
+  color: #666;
+}
+
+.metric-card p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.metric-card span {
+  color: green;
+  font-weight: bold;
+}
+
+.chart-and-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-chart-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 70%;
+  text-align: left;
+}
+
+.side-details-container {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-detail-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 10px; /* Space between cards */
+  text-align: left;
+}
+
+.side-detail-card:last-child {
+  margin-bottom: 0;
+}
+
+.side-detail-card p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.side-detail-card span {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.side-detail-card span:last-child {
+  color: green;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* KnowledgeBase Styles */
+.knowledge-base-container {
+  padding: 20px;
+}
+
+.search-form-container {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align form elements to the left */
+}
+
+.action-buttons-container {
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align buttons to the left */
+}
+
+.ant-table-wrapper {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-pagination.ant-pagination {
+  padding: 10px 20px;
+  text-align: right;
+}
+
+/* ReportGeneration Styles (Similar to KnowledgeBase for consistency) */
+.report-generation-container {
+  padding: 20px;
+}
+
+/* SemanticQuery Styles (Similar to KnowledgeBase for consistency) */
+.semantic-query-container {
+  padding: 20px;
+}
