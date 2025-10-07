@@ -12,7 +12,7 @@ PS: Think deeply, ask clearly , concisely
 5. For communication between two system, pay attention to the inferface, the Boundary. just like the pageunm, Is it from 0 or 1?
 
 6. For the timezone, ISO 8601
-   "2025-09-27T21:09:39.747314"，就变成 2025-09-28 了
+   "2025-09-27T21:09:39.747314"，during the function change 2025-09-28
    export function parseTime(time, pattern) {
    if (arguments.length === 0 || !time) {
    return null
